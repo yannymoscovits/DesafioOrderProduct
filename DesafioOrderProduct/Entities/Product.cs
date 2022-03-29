@@ -12,7 +12,7 @@ namespace DesafioOrderProduct.Entities
         public double Price { get; set; }
         public OrderItem OrderItem { get; set; }
 
-        public Product(string name, double price, int quantity)
+        public Product(string name, double price)
         {
             Name = name;
             Price = price;

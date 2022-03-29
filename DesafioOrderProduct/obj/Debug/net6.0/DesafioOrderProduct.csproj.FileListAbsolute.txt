@@ -1,0 +1,15 @@
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\bin\Debug\net6.0\DesafioOrderProduct.exe
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\bin\Debug\net6.0\DesafioOrderProduct.deps.json
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\bin\Debug\net6.0\DesafioOrderProduct.runtimeconfig.json
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\bin\Debug\net6.0\DesafioOrderProduct.dll
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\bin\Debug\net6.0\DesafioOrderProduct.pdb
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\obj\Debug\net6.0\DesafioOrderProduct.csproj.AssemblyReference.cache
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\obj\Debug\net6.0\DesafioOrderProduct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\obj\Debug\net6.0\DesafioOrderProduct.AssemblyInfoInputs.cache
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\obj\Debug\net6.0\DesafioOrderProduct.AssemblyInfo.cs
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\obj\Debug\net6.0\DesafioOrderProduct.csproj.CoreCompileInputs.cache
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\obj\Debug\net6.0\DesafioOrderProduct.dll
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\obj\Debug\net6.0\refint\DesafioOrderProduct.dll
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\obj\Debug\net6.0\DesafioOrderProduct.pdb
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\obj\Debug\net6.0\DesafioOrderProduct.genruntimeconfig.cache
+C:\Users\yanny\Desktop\Estudos\DesafioOrderProduct\DesafioOrderProduct\obj\Debug\net6.0\ref\DesafioOrderProduct.dll

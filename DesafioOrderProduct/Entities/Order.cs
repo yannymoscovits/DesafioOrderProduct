@@ -12,13 +12,14 @@ namespace DesafioOrderProduct.Entities
         public OrderStatus Status { get; set; }
          public OrderItem OrderItem  { get; set; }
         public  Client Client { get; set; }
+        public Product Product { get; set; }
 
 
-        public Order(DateTime moment, OrderStatus status, OrderItem orderItem)
+        public Order(DateTime moment, OrderStatus status, Client client)
         {
             Moment = moment;
             Status = status;
-            OrderItem = orderItem;
+            Client = client;
         }
 
         public Order(OrderStatus status)
@@ -40,7 +41,33 @@ namespace DesafioOrderProduct.Entities
 
         public double Total()
         {
-            return 
+            double total = 0;
+            foreach (OrderItem item in Items)
+            {
+                         
+                total += item.subTotal();
+                
+            }
+            return total;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Order moment : " + Moment.ToString("dd/MM/yyyy HH:mm:ss"));
+            sb.AppendLine("Order Status :" + Status);
+            sb.AppendLine("Client: " + Client.Name + " " + Client.BirthDate + " - " + Client.Email);
+            sb.AppendLine("Order Items :");
+                       
+
+            foreach (OrderItem item in Items)
+            {
+                sb.AppendLine(item.ToString());
+            }
+            
+            sb.Append("Total Price: $" + Total());
+            return sb.ToString();
+              
         }
     }
 }

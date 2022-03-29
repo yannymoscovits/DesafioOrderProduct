@@ -18,8 +18,9 @@ namespace DesafioOrderProduct
             DateTime data = DateTime.Parse(Console.ReadLine());
             Console.Write("Status: ");
             OrderStatus status = Enum.Parse<OrderStatus>(Console.ReadLine());
+            
             Client c1 = new Client(name, email, data);
-            Order order = new Order(status);
+            Order order = new Order(DateTime.Now, status, c1);
 
 
             Console.Write("How many items to this order? ");
@@ -32,12 +33,19 @@ namespace DesafioOrderProduct
                 string pname = Console.ReadLine();
                 Console.Write("Price :");
                 double pprice = double.Parse(Console.ReadLine());
+
+                Product p = new Product(pname, pprice);
+
                 Console.Write("Quantity :");
                 int quanty = int.Parse(Console.ReadLine());
-                OrderItem product = new OrderItem(pname,pprice,quanty);
+
+                OrderItem product = new OrderItem(quanty, pprice, p);
                 order.AddItem(product);
                 
             }
+
+            Console.WriteLine(order);
+
         
         }   
     }

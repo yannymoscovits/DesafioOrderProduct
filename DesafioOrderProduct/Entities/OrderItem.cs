@@ -18,18 +18,16 @@ namespace DesafioOrderProduct.Entities
             Price = price;
         }
 
-        public OrderItem(string name, double price, int quantity )
+        public OrderItem(int quantity, double price, Product product)
         {
             Quantity = quantity;
-            Product.Name = name;
-            Product.Price = price;
+            Price = price;
+            Product = product;
         }
-
-       
 
         public double subTotal()
         {
-            return
+            return Product.Price * Quantity;
         }
     }
 }
