@@ -29,5 +29,12 @@ namespace DesafioOrderProduct.Entities
         {
             return Product.Price * Quantity;
         }
+
+        public override string ToString()
+        {
+            return Product.Name + ", $" + Price.ToString("F2")
+                + ", Quantity :" + Quantity + ", Subtotal : $" +
+                subTotal();
+        }
     }
 }

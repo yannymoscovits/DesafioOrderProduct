@@ -13,6 +13,6 @@ namespace DesafioOrderProduct.Entities
        SHIPPED = 2,
        DELIVERY = 3,
 
-
+        
     }
 }
